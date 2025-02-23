@@ -14,3 +14,9 @@ Para inciar o servidor:
 ```
 ruby app.rb
 ```
+
+Para rodar os testes:
+
+```
+bundle exec rspec
+```
