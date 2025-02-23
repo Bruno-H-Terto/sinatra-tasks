@@ -11,9 +11,9 @@ RSpec.describe Users::Create do
       params = {
         name: 'Jhon',
         email: 'jhon@email.com'
-       }
+      }
       create_user = Users::Create.new(params: params)
-      
+
       expect { create_user.call }.to change(UserRepository, :count).by(1)
       expect(create_user.call).to eq(UserRepository.last)
     end

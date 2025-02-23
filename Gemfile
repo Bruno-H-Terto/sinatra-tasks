@@ -4,12 +4,12 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "activesupport"
+gem "dotenv"
 gem "rake"
 gem "rubocop"
 gem "sinatra"
 gem "sinatra-activerecord"
 gem "sqlite3"
-gem "dotenv"
 gem 'tzinfo'
 
 group :test do
