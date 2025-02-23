@@ -13,7 +13,7 @@ module Users
 
     def call
       user = @user.new(name: @params[:name], email: @params[:email])
-      @user_repository.create(user.attributes)
+      @user_repository.create!(user.attributes)
     end
   end
 end
