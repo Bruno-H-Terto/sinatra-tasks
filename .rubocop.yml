@@ -1,5 +1,10 @@
 AllCops:
   NewCops: enable
+  Exclude:
+    - 'db/*/**'
 
 Style/StringLiterals:
+  Enabled: false
+
+Style/Documentation:
   Enabled: false
