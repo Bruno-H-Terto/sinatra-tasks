@@ -2,9 +2,13 @@ AllCops:
   NewCops: enable
   Exclude:
     - 'db/*/**'
+    - 'config/environment'
 
 Style/StringLiterals:
   Enabled: false
 
 Style/Documentation:
+  Enabled: false
+
+Style/GlobalVars:
   Enabled: false

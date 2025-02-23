@@ -9,8 +9,10 @@ gem "rubocop"
 gem "sinatra"
 gem "sinatra-activerecord"
 gem "sqlite3"
+gem "dotenv"
+gem 'tzinfo'
 
 group :test do
-  gem "rspec"
   gem "rack-test"
+  gem "rspec"
 end
